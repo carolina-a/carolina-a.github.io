@@ -1,1 +1,87 @@
-Hello World!
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolsa de Trabajo &ndash; Comunidad de Líderes Energéticos</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+	        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="css/layouts/side-menu.css">
+        <!--<![endif]-->
+</head>
+<body>
+<div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+    </a>
+
+    <div id="menu">
+        <div class="pure-menu">
+            <!--<a class="pure-menu-heading" href="#">Mi Perfil</a>-->
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-selected"><a href="#REF_INICIO" class="pure-menu-link">Inicio</a></li>
+                <li class="pure-menu-item"><a href="#REF_CONTACTO" class="pure-menu-link">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+	
+    <div id="main">
+        <div id="REF_INICIO" class="header">
+            <h1>Bolsa de Trabajo</h1>
+            <h2>Comunidad de <span class="text-blue">LÍDERES</span> <span class="text-orange">ENERGÉTICOS</span></h2>
+        </div>
+
+        <div class="content">
+            <h2 class="content-subhead">Inicio de Sesión</h2>
+            <p>
+                Para acceder al sitio por favor ingrese sus credenciales a continuación
+            </p>
+
+			<form class="pure-form pure-form-aligned">
+				<fieldset>
+					<div class="pure-control-group">
+						<label for="email">Username</label>
+						<input id="email" type="text" placeholder="Email">
+					</div>
+
+					<div class="pure-control-group">
+						<label for="password">Password</label>
+						<input id="password" type="password" placeholder="Contraseña">
+					</div>
+					<div class="pure-controls">
+						<button type="submit" class="pure-button pure-button-primary"><a href="/main.html">Ingresar</a></button>
+					</div>
+				</fieldset>
+			</form>
+			
+			</br>
+			
+			<div id="REF_CONTACTO" class="footer">
+				<div class="pure-g">
+					<div class="pure-u-1-1">
+						<img class="pure-img-responsive" src="img/logo_programa.png" alt="Logo">
+					</div>
+				</div>
+				<p>
+					CACME</br>
+					TEL: +54 (11) 4393-2005</br>
+					Suipacha 233 - Local 20, Piso 1</br>
+					C1008AAE - Ciudad de Buenos Aires</br>
+					ARGENTINA</br>
+					E-mail: programadeformacion@cacme.org.ar
+				</p>
+			</div>
+        </div>
+    </div>
+</div>
+
+<script src="js/ui.js"></script>
+</body>
+</html>

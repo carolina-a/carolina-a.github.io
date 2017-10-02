@@ -1,0 +1,149 @@
+a {
+	color: #5283b2;
+}
+
+button a {
+	color: white;
+}
+
+button a:hover{
+	text-decoration: none;
+}
+
+.framed-img {
+	max-width:75%;
+	border: 1px solid white;
+	-webkit-box-shadow: 0 0 1px #4f4f4f;
+	box-shadow: 0 0 1px #4f4f4f;
+}
+
+.text-orange {
+	color: #ff9000;
+	font-weight: bold;
+}
+
+.text-blue {
+	color: #5283b2;
+	font-weight: bold;
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.search {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.footer {
+	margin-top: 3em;
+	text-align: center;
+}
+
+.article {
+	margin: 1em;
+	padding: 2em;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.article img {
+	max-height: 6em;
+}
+
+.article .article-content {
+	text-align: center;
+	margin: auto 0;
+	color: gray;
+}
+
+.article .article-date {
+	text-align: center;
+	margin: auto 0;
+	color:lightgray;
+}
+
+.profile {
+	margin-top: 2em;
+}
+
+.profile img {
+	max-height: 14em;
+}
+
+.profile .profile-content {
+	text-align: left;
+	margin: auto 0;
+	padding-left: 1em;
+}
+
+.profile .job {
+	text-align: left;
+	margin: 0 auto;
+}
+
+.job-search {
+	text-align: center;
+	padding-top: 0em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 2em;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+}
+
+.job-search .job-data {
+	text-align: left;
+}
+
+.job-search h3 {
+	padding: 1em;
+}
+
+.job-search .article-content img {
+	padding-top: 2em;
+	max-height: 8em;
+	max-width: 8em;
+}
+
+.button-success,
+.button-error,
+.button-warning,
+.button-secondary {
+	color: white !important;
+	border-radius: 4px !important;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.button-success {
+	background: rgb(28, 184, 65) !important; /* this is a green */
+}
+.button-error {
+	background: rgb(202, 60, 60); /* this is a maroon */
+}
+
+.button-warning {
+	background: rgb(223, 117, 20); /* this is an orange */
+}
+
+.button-secondary {
+	background: rgb(66, 184, 221); /* this is a light blue */
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
